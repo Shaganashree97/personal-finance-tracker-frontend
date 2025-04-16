@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.1",
   "type": "module",
-  "homepage": "https://Shaganashree97.github.io/personal-finance-tracker-frontend",
+  "homepage": "https://Shaganashree97.github.com/personal-finance-tracker-frontend",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -29,6 +29,7 @@
     "eslint-plugin-react-refresh": "^0.4.19",
     "gh-pages": "^6.3.0",
     "globals": "^15.15.0",
+    "rollup-plugin-node-polyfills": "^0.2.1",
     "vite": "^6.2.6"
   }
 }
