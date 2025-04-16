@@ -20,6 +20,7 @@ body {
   list-style: none;
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 1.5rem;
 }
 
@@ -31,5 +32,21 @@ body {
 }
 
 .navbar ul li a:hover {
-  color: #9333EA;
+  color: #A78BFA;
+}
+
+/* Logout Button */
+.logout-btn {
+  background-color: #EF4444;
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logout-btn:hover {
+  background-color: #DC2626;
 }

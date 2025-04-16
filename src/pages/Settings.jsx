@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useRef } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import '../styles/Settings.css';
@@ -50,13 +51,13 @@ const Settings = () => {
 
   return (
     <div>
-      <button onClick={logout} className="logout-btn">Logout</button>
       <nav className="navbar">
         <ul>
           <li><Link to="/">Dashboard</Link></li>
           <li><Link to="/transactions">Transactions</Link></li>
           <li><Link to="/budgets">Budgets</Link></li>
           <li><Link to="/settings">Settings</Link></li>
+          <button onClick={logout} className="logout-btn">Logout</button>
         </ul>
       </nav>
       <div className="settings-container">
